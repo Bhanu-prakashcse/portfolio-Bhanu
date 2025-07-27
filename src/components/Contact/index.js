@@ -107,10 +107,7 @@ const ContactButton = styled.input`
   width: 100%;
   text-decoration: none;
   text-align: center;
-  background: hsla(271, 100%, 50%, 1);
-  background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-  background: -moz-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-  background: -webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+  background: linear-gradient(225deg, rgb(115, 13, 225) 0%, rgb(15, 235, 136) 100%);
   padding: 13px 16px;
   margin-top: 2px;
   border-radius: 12px;
@@ -118,8 +115,19 @@ const ContactButton = styled.input`
   color: ${({ theme }) => theme.text_primary};
   font-size: 18px;
   font-weight: 600;
-`
+  cursor: pointer; 
+  transition: background 0.3s ease-in-out, transform 0.1s ease-in-out;
 
+  &:hover {
+    background: linear-gradient(225deg, rgb(15, 235, 136) 0%, rgb(115, 13, 225) 100%);
+    transform: scale(1.03);
+  }
+
+  &:active {
+    background: linear-gradient(225deg, rgb(207, 18, 18) 0%, rgb(131, 226, 16) 100%);
+    transform: scale(0.98); 
+  }
+`;
 
 
 const Contact = () => {
