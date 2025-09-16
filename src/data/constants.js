@@ -8,7 +8,7 @@ export const Bio = {
   "B.Tech CSE graduate (2025) specializing in Java, SQL and backend development using Spring Boot. Completed projects such as an RetailX – Role Based Product Ordering System, chat-with-webiste(RAG) (see projects section for details). Solved over 400+ DSA problems and hold certifications from Revature, Cisco, IBM.",
   github: "https://github.com/Bhanu-prakashcse",
   resume:
-    "https://drive.google.com/file/d/1G4OpqSSDUJ2q1tz-lwamFcxkv88HxpY2/view?usp=sharing",
+    "https://drive.google.com/file/d/1W6dKjV1MTw-kx0klPLG2cRsPjb2tKwhI/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/dandu-bhanu-prakash-aa059326b/",
 };
 
