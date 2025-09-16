@@ -151,7 +151,7 @@ export const education = [
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTveGgBjKyF7LtRmu5Fw0CY4VlNSciAWRBe5w&s",
     school: "V.B.R Junior College, Nellore",
     date: "Mar 2019 - Mar 2021",
-    Marks: "933",
+    grade: "93%",
     desc: "I completed my Intermediate (MPC) from VBR Junior College, where I studied Mathematics, Physics, and Chemistry.",
 degree: "Intermediate (MPC), VBR Junior College",
   },
