@@ -234,7 +234,7 @@ export const projects = [
     date: "Nov 2025 - Dec 2025",
     description:
       "Aviation Insights is an end-to-end data engineering project designed to analyze flight delays and cancellations using a scalable cloud-based data pipeline. The project follows Medallion Architecture (Bronze, Silver, Gold) to ingest, transform, and model aviation datasets for analytics and reporting. \n\nRaw flight, airline, and airport data is ingested from AWS S3 into Snowflake using External Stages and Snowpipe. Data transformations and business logic are implemented using dbt and Snowpark, including data cleansing, standardization, and Slowly Changing Dimension (SCD Type-2) handling. \n\nThe final Gold layer consists of optimized fact and dimension tables to support trend analysis and performance insights across airlines and airports.",
-    image: "https://chatgpt.com/backend-api/estuary/content?id=file_00000000ec5c72078e642822c388503a&ts=490722&p=fs&cid=1&sig=fc080efa1b73d9ce45137f99e359cc17be7e48b9b732dd3f14fd797f941a833f&v=0",
+    image: "/aviation image.png",
     tags: [
       "Python",
       "SQL",
