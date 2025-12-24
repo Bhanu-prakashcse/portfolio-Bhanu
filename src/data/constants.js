@@ -250,7 +250,6 @@ export const projects = [
     ],
     category: "Data Engineering",
     github: "https://github.com/Bhanu-prakashcse/Flights-project-rev",
-    webapp: "",
   },  
 ];
 
