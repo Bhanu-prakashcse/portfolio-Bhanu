@@ -21,6 +21,12 @@ const Projects = ({openModal,setOpenModal}) => {
             <ToggleButton value="all" onClick={() => setToggle('all')}>All</ToggleButton>
           }
           <Divider />
+          {toggle === 'Data Engineering' ?
+            <ToggleButton active value="Data Engineering" onClick={() => setToggle('Data Engineering')}>Data Engineering</ToggleButton>
+            :
+            <ToggleButton value="Data Engineering" onClick={() => setToggle('Data Engineering')}>Data Engineering</ToggleButton>
+          }
+          <Divider />
           {toggle === 'web app' ?
             <ToggleButton active value="web app" onClick={() => setToggle('web app')}>WEB APP'S</ToggleButton>
             :
@@ -31,12 +37,6 @@ const Projects = ({openModal,setOpenModal}) => {
             <ToggleButton active value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
             :
             <ToggleButton value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
-          }
-          <Divider />
-          {toggle === 'Data Engineering' ?
-            <ToggleButton active value="Data Engineering" onClick={() => setToggle('Data Engineering')}>Data Engineering</ToggleButton>
-            :
-            <ToggleButton value="Data Engineering" onClick={() => setToggle('Data Engineering')}>Data Engineering</ToggleButton>
           }
         </ToggleButtonGroup>
         <CardContainer>

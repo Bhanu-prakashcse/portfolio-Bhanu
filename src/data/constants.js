@@ -248,7 +248,7 @@ export const projects = [
       "Data Warehousing",
       "SCD Type-2"
     ],
-    category: "data engineering",
+    category: "Data Engineering",
     github: "https://github.com/Bhanu-prakashcse/Flights-project-rev",
     webapp: "",
   },  
