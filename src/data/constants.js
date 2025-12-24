@@ -225,7 +225,7 @@ export const projects = [
       "Designed and implemented an interactive Tableau dashboard with 8 key visualizations to analyze market trends and customer segments. Processed and examined over 8,000 rows of customer data to identify behavioral patterns, purchase frequencies, and sales growth KPIs. Developed 5 custom KPIs to track engagement, retention, and revenue across multiple demographics, enabling marketing and sales teams to improve targeting strategies and optimize campaigns for better business outcomes.",
     image: "/dashboard.png", // Replace with actual image URL
     tags: ["Tableau", "Data Analysis", "KPI Design", "Segmentation", "Visualization"],
-    category: "Data Analysis",
+    category: "Data Engineering",
     webapp: "https://lnkd.in/gKHZnvXY",
   },
   {
@@ -234,7 +234,7 @@ export const projects = [
     date: "Nov 2025 - Dec 2025",
     description:
       "Aviation Insights is an end-to-end data engineering project designed to analyze flight delays and cancellations using a scalable cloud-based data pipeline. The project follows Medallion Architecture (Bronze, Silver, Gold) to ingest, transform, and model aviation datasets for analytics and reporting. \n\nRaw flight, airline, and airport data is ingested from AWS S3 into Snowflake using External Stages and Snowpipe. Data transformations and business logic are implemented using dbt and Snowpark, including data cleansing, standardization, and Slowly Changing Dimension (SCD Type-2) handling. \n\nThe final Gold layer consists of optimized fact and dimension tables to support trend analysis and performance insights across airlines and airports.",
-    image: "/aviation-pipeline.png",
+    image: "https://chatgpt.com/backend-api/estuary/content?id=file_00000000ec5c72078e642822c388503a&ts=490722&p=fs&cid=1&sig=fc080efa1b73d9ce45137f99e359cc17be7e48b9b732dd3f14fd797f941a833f&v=0",
     tags: [
       "Python",
       "SQL",
