@@ -223,13 +223,32 @@ export const projects = [
     date: "Mar 2023",
     description:
       "Designed and implemented an interactive Tableau dashboard with 8 key visualizations to analyze market trends and customer segments. Processed and examined over 8,000 rows of customer data to identify behavioral patterns, purchase frequencies, and sales growth KPIs. Developed 5 custom KPIs to track engagement, retention, and revenue across multiple demographics, enabling marketing and sales teams to improve targeting strategies and optimize campaigns for better business outcomes.",
-    image: "/dashboard.png", // Replace with actual image URL
+    image: "/dashboard.png", 
     tags: ["Tableau", "Data Analysis", "KPI Design", "Segmentation", "Visualization"],
-    category: "Data Engineering",
+    category: "Data Analysis",
     webapp: "https://lnkd.in/gKHZnvXY",
   },
   {
     id: 5,
+    title: "Pizza Sales Analytics Dashboard",
+    date: "2024",
+    description:
+      "Designed and developed an interactive Power BI dashboard to analyze one year of pizza sales data using SQL and Power BI. The dashboard provides actionable business insights through dynamic visualizations, enabling stakeholders to track sales performance, customer behavior, and regional demand trends.\n\nKey insights include monthly sales trends to identify peak seasons, top-selling pizza categories and products, regional performance analysis to uncover high-demand locations, and customer segmentation based on purchasing behavior. The solution transforms raw transactional data into clear, decision-ready insights for business growth and strategy planning.",
+    image: "/power bi.png", // add a clean screenshot of your dashboard
+    tags: [
+      "Power BI",
+      "SQL",
+      "Data Analysis",
+      "Sales Analytics",
+      "Customer Segmentation",
+      "KPI Design",
+      "Data Visualization"
+    ],
+    category: "Data Analysis",
+    webapp: "https://lnkd.in/gtHeJ45Z",
+  },  
+  {
+    id: 6,
     title: "Aviation Insights – Data Engineering Pipeline",
     date: "Nov 2025 - Dec 2025",
     description:
@@ -251,6 +270,28 @@ export const projects = [
     category: "Data Engineering",
     github: "https://github.com/Bhanu-prakashcse/Flights-project-rev",
   },  
+  {
+    id: 7,
+    title: "Multi-source Retail Data Integration Hub",
+    date: "2025",
+    description:
+      "Built a scalable data integration hub for retail analytics by consolidating data from multiple sources, including an open retail sales dataset and a product catalog API. Designed and implemented a robust ETL pipeline using Python to extract, transform, and load data into a BigQuery data warehouse.\n\nImplemented Slowly Changing Dimension (SCD Type-2) logic to track historical changes in product and customer attributes. Modeled fact and dimension tables to support analytics use cases and created dedicated data marts for sales performance and product category insights. Integrated data quality checks, performance optimizations, and a Streamlit-based monitoring dashboard to ensure pipeline reliability and observability.",
+    image: "/multi data source.png", // add a clean pipeline / warehouse image
+    tags: [
+      "Python",
+      "BigQuery",
+      "ETL",
+      "Data Warehousing",
+      "Dimensional Modeling",
+      "SCD Type-2",
+      "APIs",
+      "Streamlit",
+      "Data Quality"
+    ],
+    category: "Data Engineering",
+    github: "https://github.com/Bhanu-prakashcse/Multi-source-data-Integration-hub---project-1---BP.git",
+  }
+  
 ];
 
 export const TimeLineData = [
