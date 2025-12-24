@@ -1,14 +1,15 @@
 export const Bio = {
   name: "Dandu Bhanu prakash",
   roles: [
+    "Data Engineer",
     "Java Full Stack Developer",
     "Programmer",
   ],
   description:
-  "B.Tech CSE graduate (2025) specializing in Java, SQL and backend development using Spring Boot. Completed projects such as an RetailX – Role Based Product Ordering System, chat-with-webiste(RAG) (see projects section for details). Solved over 500+ DSA problems and hold certifications from Revature, Cisco, IBM.",
+  "Data Engineer with hands-on experience in ETL pipelines, data warehousing, and cloud-based analytics using PySpark, Snowflake, and AWS.",
   github: "https://github.com/Bhanu-prakashcse",
   resume:
-    "https://drive.google.com/file/d/1W6dKjV1MTw-kx0klPLG2cRsPjb2tKwhI/view?usp=sharing",
+    "https://drive.google.com/file/d/1cxjs9mi5hq2Ydr4YAkGcsC5gNxwM6RAg/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/dandu-bhanu-prakash-aa059326b/",
 };
 
