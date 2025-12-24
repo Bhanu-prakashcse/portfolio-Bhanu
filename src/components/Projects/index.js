@@ -33,10 +33,10 @@ const Projects = ({openModal,setOpenModal}) => {
             <ToggleButton value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
           }
           <Divider />
-          {toggle === 'machine learning' ?
-            <ToggleButton active value="machine learning" onClick={() => setToggle('Data Analysis')}>Data Analysis</ToggleButton>
+          {toggle === 'Data Engineering' ?
+            <ToggleButton active value="Data Engineering" onClick={() => setToggle('Data Engineering')}>Data Engineering</ToggleButton>
             :
-            <ToggleButton value="machine learning" onClick={() => setToggle('Data Analysis')}>Data Analysis</ToggleButton>
+            <ToggleButton value="Data Engineering" onClick={() => setToggle('Data Engineering')}>Data Engineering</ToggleButton>
           }
         </ToggleButtonGroup>
         <CardContainer>
