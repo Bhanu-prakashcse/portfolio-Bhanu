@@ -234,7 +234,7 @@ export const projects = [
     date: "2024",
     description:
       "Designed and developed an interactive Power BI dashboard to analyze one year of pizza sales data using SQL and Power BI. The dashboard provides actionable business insights through dynamic visualizations, enabling stakeholders to track sales performance, customer behavior, and regional demand trends.\n\nKey insights include monthly sales trends to identify peak seasons, top-selling pizza categories and products, regional performance analysis to uncover high-demand locations, and customer segmentation based on purchasing behavior. The solution transforms raw transactional data into clear, decision-ready insights for business growth and strategy planning.",
-    image: "/power bi.png", // add a clean screenshot of your dashboard
+    image: "/power bi .png",
     tags: [
       "Power BI",
       "SQL",
@@ -276,7 +276,7 @@ export const projects = [
     date: "2025",
     description:
       "Built a scalable data integration hub for retail analytics by consolidating data from multiple sources, including an open retail sales dataset and a product catalog API. Designed and implemented a robust ETL pipeline using Python to extract, transform, and load data into a BigQuery data warehouse.\n\nImplemented Slowly Changing Dimension (SCD Type-2) logic to track historical changes in product and customer attributes. Modeled fact and dimension tables to support analytics use cases and created dedicated data marts for sales performance and product category insights. Integrated data quality checks, performance optimizations, and a Streamlit-based monitoring dashboard to ensure pipeline reliability and observability.",
-    image: "/multi data source.png", // add a clean pipeline / warehouse image
+    image: "/multi data soucre.png", // add a clean pipeline / warehouse image
     tags: [
       "Python",
       "BigQuery",
