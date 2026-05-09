@@ -276,7 +276,7 @@ export const projects = [
     date: "2025",
     description:
       "Built a scalable data integration hub for retail analytics by consolidating data from multiple sources, including an open retail sales dataset and a product catalog API. Designed and implemented a robust ETL pipeline using Python to extract, transform, and load data into a BigQuery data warehouse.\n\nImplemented Slowly Changing Dimension (SCD Type-2) logic to track historical changes in product and customer attributes. Modeled fact and dimension tables to support analytics use cases and created dedicated data marts for sales performance and product category insights. Integrated data quality checks, performance optimizations, and a Streamlit-based monitoring dashboard to ensure pipeline reliability and observability.",
-    image: "/multi data soucre.png", // add a clean pipeline / warehouse image
+    image: "/multi data soucre.png",
     tags: [
       "Python",
       "BigQuery",
